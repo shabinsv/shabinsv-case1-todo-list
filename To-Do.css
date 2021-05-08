@@ -1,0 +1,41 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    background-color:rgb(72,72,72);
+    
+}
+.header a{
+    text-decoration: none;
+    margin-right: 15px;
+    color:rgb(220,220,220);
+    font-size: large;
+}
+.header a:hover{
+    color: 	rgb(128,128,128);
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 3%;
+    margin-left: 5%;
+    text-align: center;
+}
+table{
+    margin-top: 3%;
+    margin-left: 3%; 
+    margin-right: 3%;  
+}
+td{
+    border-bottom: 1px solid rgb(152,152,152); 
+    width: 100%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
