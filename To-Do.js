@@ -48,18 +48,22 @@ function func(){
              count++;
             }
         } 
-        var promise=new Promise(function(resolve,reject){ 
+     var promise= new Promise(function(resolve,reject){ 
         if(count==5){
-            return resolve("You have completed 5 Tasks");
+         resolve();
         }      
         else{
-            return reject("select five items");
+            reject("select five items");
         }
 
     });
 promise
-.then(function(s){
-    alert(s);
+.then(function(){
+    alert("You have selected 5 Tasks");
+    for(var i=0;i<j;i++){
+        x[i].setAttribute("disabled", true);
+    }
+    
 })
 .catch(function(y){
     console.log(y);
